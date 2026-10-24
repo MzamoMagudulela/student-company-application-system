@@ -1,0 +1,54 @@
+# Dependencies
+backend/venv/
+venv/
+ENV/
+env/
+frontend/node_modules/
+node_modules/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend build outputs
+frontend/dist/
+dist/
+build/
+.eslintcache
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local SQLite databases & test artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+test_mydc.db
+
+# Storage & Uploads (preserve folder structure via .gitkeep)
+backend/storage/cvs/*
+!backend/storage/cvs/.gitkeep
+backend/storage/offers/*
+!backend/storage/offers/.gitkeep
+backend/storage/backups/*
+!backend/storage/backups/.gitkeep
+
+# IDEs & System files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
